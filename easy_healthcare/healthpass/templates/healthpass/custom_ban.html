@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang=en">
+    <head>
+        {% load static %}
+        <title>Custom Ban: Not allowed!!!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="{% static './images/loading1.png' %}">
+    </head>
+    <body>
+        {% if error_message %}
+            <div>
+                {{ error_message }}
+            </div>
+        {% endif %}
+        <div>
+            <h1>You have been blocked from accessing this page.</h1>
+        </div>
+    </body>
+</html>

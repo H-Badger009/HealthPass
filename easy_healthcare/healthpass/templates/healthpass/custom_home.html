@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang=en">
+    <head>
+        {% load static %}
+        <title>Health Practitioner Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="{% static './images/loading1.png' %}">
+        <style>
+            nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                height: inherit;
+                width: inherit;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <!-- Add the read blood, urinal analysis, and general info links here. -->
+                <p>
+                    <a href="{% url 'health:custom_blood_work_read' %}">check blood works<a>
+                </p>
+                <p>
+                    <a href="{% url 'health:custom_general_info_read' %}">check general infos<a>
+                </p>
+                <p>
+                    <a href="{% url 'health:custom_urinalysis_read' %}">check urinalysis</a>
+                </p>
+                <p>
+                    <a href="{% url 'health:custom_logout' %}">Log out</a>
+                </p>
+            </nav>
+        </header>
+        <main>
+            {% include 'healthpass/messages.html' %}
+            <div>
+                <h1>Welcome to the Custom Health Practitioner Portal</h1>
+                <p>Hello, health practitioner, {{ custom_logged_user.first_name }} {{ custom_logged_user.last_name }}</p>
+            </div>
+        </main>
+    </body>
+</html>
