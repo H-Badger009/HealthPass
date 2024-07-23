@@ -1,5 +1,3 @@
-## README.md for HealthPass
-
 ### HealthPass Overview
 
 HealthPass is a state-of-the-art health management platform designed to transform how medical data is accessed and utilized globally. Our journey began with a critical examination of healthcare inefficiencies in developing countries, particularly in Africa, where inadequate medical record systems significantly lower healthcare standards.
