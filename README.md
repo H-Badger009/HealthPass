@@ -20,7 +20,7 @@ HealthPass is a state-of-the-art health management platform designed to transfor
 
 #### Prerequisites
 
-- **Python**: Ensure Python 3.12 or higher is installed on your machine. You can download it from the [Python Downloads Page](https://www.python.org/downloads/).
+- **Python**: Ensure Python 3.10 or higher is installed on your machine. You can download it from the [Python Downloads Page](https://www.python.org/downloads/).
 
 #### Installation Steps
 
@@ -133,6 +133,10 @@ We welcome contributions to HealthPass! To contribute:
 Please ensure your code adheres to the project's coding standards and includes appropriate tests.
 
 ---
+
+### Live Deployment
+
+You can access the deployed project [here](https://trademonastery.pythonanywhere.com/healthpass/custom_login/)
 
 ### License
 
