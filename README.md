@@ -138,6 +138,7 @@ Please ensure your code adheres to the project's coding standards and includes a
 
 You can access the deployed project here:
 [Health Practitioner Login](https://trademonastery.pythonanywhere.com/healthpass/custom_login/)
+
 [Regular User Login](https://trademonastery.pythonanywhere.com/accounts/login/)
 
 ---
