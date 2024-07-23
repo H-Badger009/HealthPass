@@ -1,3 +1,4 @@
+## README.md for HealthPass
 
 ### HealthPass Overview
 
@@ -43,26 +44,21 @@ HealthPass is a state-of-the-art health management platform designed to transfor
      ```bash
      mkdir summer_hacks
      ```
-   - In your machine's home directory and set up a virtual environment:
+   -  Set up a virtual environment:
      ```bash
      py -m venv healthpass
      healthpass\Scripts\activate.bat
      ```
-   - Navigate into created project folder:
-     ```
-     bash
-     cd summer_hacks
-     ```
-     
    - Install Django within the virtual environment:
      ```bash
      py -m pip install Django
      ```
 
 5. **Clone the Repository**:
-   - Change directory to your project folder:
+   - Change directory to your project folder (summer_hacks):
      ```bash
-     git clone (https://github.com/H-Badger009/HealthPass.git)
+     cd summer_hacks
+     git clone https://github.com/H-Badger009/HealthPass.git
      cd HealthPass
      ```
 
@@ -99,7 +95,7 @@ HealthPass is a state-of-the-art health management platform designed to transfor
 
 1. Navigate to the directory:
    ```bash
-   cd HealthPass\easy_healthcare
+   cd summer_hacks\HealthPass\easy_healthcare
    ```
 
 2. Organize your static files:
@@ -140,4 +136,4 @@ Please ensure your code adheres to the project's coding standards and includes a
 
 ### License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
